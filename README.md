@@ -16,10 +16,10 @@ I learned in school to recognize time-consuming, monotonous labor as something t
 
 # **LABOR AND CODE IN ACTION**
 In the case of an unresponsive lead, there are 4 small tasks to take care of:
-(1) Email the lead (i.e. "we saw you were interested in our program; when would you like to talk?" etc.)
-(2) Log your activity
-(3) Create your next "to-do"
-(4) Change the lead's status if necessary ("qualified", "applied", "Do Not Call", etc.)
+1. Email the lead (i.e. "we saw you were interested in our program; when would you like to talk?" etc.)
+2. Log your activity
+3. Create your next "to-do"
+4. Change the lead's status if necessary ("qualified", "applied", "Do Not Call", etc.)
 
 Each task above is automated by my code. In its current iteration (11-12-13), there are 8 cells which determine the execution of these tasks. Because labor can be executed inside of the excel file, I often copy and paste the same 8 cells for an entire days' worth of unresponsive leads, rendering the required button-presses as follows:
 1. CTRL+C
