@@ -1,5 +1,5 @@
 # **BOTTOM LINE UP FRONT:**
-This custom-built program automates a series of button-presses (between X and Y) down to Z, using .csvs in Excel along with Selenium and Chromedriver to send emails, record activity, schedule to-do's, and change statuses accordingly.
+This custom-built program automates a series of button-presses (between X and Y) down to Z, using .csv's in Excel along with Selenium and Chromedriver to send emails, record activity, schedule to-do's, and change statuses accordingly.
 
 
 # **BACKGROUND**
@@ -21,12 +21,12 @@ In the case of an unresponsive lead, there are 4 small tasks to take care of:
 3. Create your next "to-do"
 4. Change the lead's status if necessary ("qualified", "applied", "Do Not Call", etc.)
 
-Each task above is automated by my code. In its current iteration (11-12-13), there are 8 cells which determine the execution of these tasks. Because labor can be executed inside of the excel file, I often copy and paste the same 8 cells for an entire days' worth of unresponsive leads, rendering the required button-presses as follows:
+Each task above is automated by my code. In its current iteration (11-12-2020), there are 8 cells which determine the execution of these tasks. Because labor can be conducted inside of the excel file, I often copy and paste the same 8 cells for an entire days' worth of unresponsive leads, rendering the required button-presses as follows:
 1. CTRL+C
 2. DOWN ARROW
 3. CTRL+V
 
-In the event that a lead IS responsive, I do need to enter custom values for these 8 cells as required. But the low volume of responsive leads and high volume of personalized labor required to serve them makes attempts to cut down any further on time/energy impractical.
+In the event that a lead IS responsive, I do need to enter custom values for these 8 cells as required. But the low volume of responsive leads and high degree of personalized labor required to serve them makes attempts to cut down any further on time/energy impractical.
 
 When an entire sheet full of leads has been processed, I save it to a .csv file. My Python code reads the .csv file and uses Selenium and Chromedriver to send emails, record activity, schedule to-do's, and change statuses accordingly.
 
