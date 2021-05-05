@@ -1,8 +1,5 @@
 config.py
-job_automation_ver1-checkpoint.ipynb
-app-checkpoint.ipynb
 *.csv
 *.png
 *.jpg
 *.xlsx
-*.pyc
