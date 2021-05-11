@@ -1,5 +1,7 @@
 config.py
+app-checkpoint.ipynb
 *.csv
 *.png
 *.jpg
 *.xlsx
+*.pyc
